@@ -20,11 +20,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://zoom.us/postattendee",
-        "https://zoom.us/j/*",
-        "https://*.zoom.us/j/*",
-        "https://zoom.us/s/*",
-        "https://*.zoom.us/s/*"
+        "https://*.slack.com/archives/*",
       ],
       "js": [
         "content.js"
